@@ -79,15 +79,37 @@ a:active {
   color: grey;
 }
 
-@keyframes bounce {
-    0%, 100% {
+@keyframes slideIn {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
         transform: translateY(0);
     }
-    50% {
-        transform: translateY(-20px);
+}
+
+@keyframes fallIn {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
     }
 }
 
 .banner {
-    animation: bounce 1s ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh; /* Adjust as needed */
+    overflow: hidden;
 }
+
+.banner {
+    animation: fallIn 1s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+    margin: 3px; /* Adjust spacing as needed */
+}
+
+
