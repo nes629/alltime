@@ -1,32 +1,93 @@
-h1, .insta{
+h1 {
   text-align: center;
 }
-hr{
+
+.word-list {
+  display: flex;
+  justify-content: center;
+}
+
+.word-list ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.word-list li {
+  margin: 0 10px;
+}
+
+hr {
   height: 2px;
-  background-color: blck;
+  background-color: white; /* Fixed typo here */
   border-color: black;
 }
+
 p {
   text-align: center;
   font-style: italic;
 }
- img1{
-   width: 1px;
- }
+
+img1 {
+  width: 1px;
+}
+
+.bi {
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  text-align: center;
+}
 
 .container {
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+   display: flex;
+  justify-content: center; 
 }
 
-.insta {
+.dmd {
   width: 100px;
   height: 100px;
-  align-items: center;
+  margin: 0 auto; /* Add this to center horizontally */
+  display: flex;
+  justify-content: center; /* Add this to center horizontally within the element */
+  align-items: center; /* Add this to center vertically within the element */
 }
-.fb {
-  width: 100px;
-  height: 100px;
-  text-align: center;
+
+/* Removed duplicate properties for .insta, .fb, .weibo, .douyin */
+
+.insta,
+.fb,
+.weibo,
+.douyin {
+  width: 50px;
+  height: 50px;
+   display: flex;
+    justify-content: center;
+  display: inline-block;
+    margin: 0 10px;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: grey;
+}
+a:active {
+  color: grey;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.banner {
+    animation: bounce 1s ;
 }
