@@ -104,11 +104,11 @@ a:active {
     text-align: center; /* Center the content horizontally */
     margin: 20px 0; /* Adjust spacing as needed */
     animation: fallIn 1s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
-  top: -300px;
+   width: 100vw; /* Set the width to 100% of the viewport width */
+    overflow: hidden;
+  width: 100%; /* Stretch the image to fill the container */
+    display: block;
 }
-h2, p {
-  position: relative;
-  top: -200px;
-}
+
 
 
