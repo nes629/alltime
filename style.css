@@ -109,13 +109,14 @@ a:active {
   width: 100%; /* Stretch the image to fill the container */
     display: block;
 }
-.img1 {
-  width: 500px;
-  height: 500px
+.img1, .img2{
+  width: 300px;
   max-width: 100%; /* Ensures the image won't exceed its parent's width */
   height: auto; /* Maintains the image's aspect ratio */
   display: block; /* Removes any default spacing for inline elements */
-  margin: 0 auto; 
+  margin: 0 auto;
+   display: flex; /* Use flexbox to create a row layout */
+  justify-content: center;
 }
 
 
