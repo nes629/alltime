@@ -104,7 +104,11 @@ a:active {
     text-align: center; /* Center the content horizontally */
     margin: 20px 0; /* Adjust spacing as needed */
     animation: fallIn 1s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
-  top: -2000px;
+  top: -300px;
+}
+h2, p {
+  position: relative;
+  top: -200px;
 }
 
 
