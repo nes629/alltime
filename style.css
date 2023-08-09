@@ -58,17 +58,24 @@ h2 {
 
 /* Removed duplicate properties for .insta, .fb, .weibo, .douyin */
 
+/* ... (your existing CSS rules) ... */
+
+/* ... (your existing CSS rules) ... */
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
 .insta,
 .fb,
 .weibo,
 .douyin {
   width: 50px;
   height: 50px;
-   display: flex;
-    justify-content: center;
-  display: inline-block;
-    margin: 0 10px;
+  margin: 0 10px;
 }
+
 a {
   color: black;
 }
@@ -79,14 +86,7 @@ a:active {
   color: grey;
 }
 
-@keyframes slideIn {
-    0% {
-        transform: translateY(-100%);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
+/* ... (your existing CSS rules) ... */
 
 @keyframes fallIn {
     0% {
@@ -100,16 +100,9 @@ a:active {
 }
 
 .banner {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100vh; /* Adjust as needed */
-    overflow: hidden;
-}
-
-.banner {
+    text-align: center; /* Center the content horizontally */
+    margin: 20px 0; /* Adjust spacing as needed */
     animation: fallIn 1s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
-    margin: 3px; /* Adjust spacing as needed */
 }
 
 
