@@ -154,6 +154,15 @@ a:active {
   display: flex; /* Use flexbox for a row layout */
   justify-content: center;
 }
+.img15 {
+  width: 450px; /* Adjust the width as needed */
+  max-width: 100%; /* Ensure it doesn't exceed its parent's width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove default spacing for inline elements */
+  margin: 0 auto; /* Center horizontally */
+  display: flex; /* Use flexbox for a row layout */
+  justify-content: center;
+}
 
 
 /* ... (your existing CSS rules) ... */
