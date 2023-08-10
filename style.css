@@ -109,7 +109,7 @@ a:active {
   width: 100%; /* Stretch the image to fill the container */
     display: block;
 }
-.img1, .img2, .img3 {
+.img1, .img2, .img3, .img4{
   width: 300px;
   max-width: 100%; /* Ensures the image won't exceed its parent's width */
   height: auto; /* Maintains the image's aspect ratio */
@@ -118,6 +118,24 @@ a:active {
    display: flex; /* Use flexbox to create a row layout */
   justify-content: center;
 }
+
+/* ... (your existing CSS rules) ... */
+
+.img{
+  display: flex;
+  justify-content: center;
+}
+
+. img {
+  width: 300px;
+  max-width: 100%; /* Ensures the image won't exceed its parent's width */
+  height: auto; /* Maintains the image's aspect ratio */
+  display: block; /* Removes any default spacing for inline elements */
+  margin: 0 auto;
+}
+
+/* ... (your existing CSS rules) ... */
+
 
 
 
