@@ -109,7 +109,7 @@ a:active {
   width: 100%; /* Stretch the image to fill the container */
     display: block;
 }
-.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img10, .img9{
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img10, .img9, .img12{
   width: 300px;
   max-width: 100%; /* Ensures the image won't exceed its parent's width */
   height: auto; /* Maintains the image's aspect ratio */
@@ -136,7 +136,16 @@ a:active {
   display: flex; /* Use flexbox for a row layout */
   justify-content: center;
   }
-.img10 {
+.img10, .img9 {
+  width: 450px; /* Adjust the width as needed */
+  max-width: 100%; /* Ensure it doesn't exceed its parent's width */
+  height: 400px; /* Maintain aspect ratio */
+  display: block; /* Remove default spacing for inline elements */
+  margin: 0 auto; /* Center horizontally */
+  display: flex; /* Use flexbox for a row layout */
+  justify-content: center;
+}
+.img12, .img13 {
   width: 400px; /* Adjust the width as needed */
   max-width: 100%; /* Ensure it doesn't exceed its parent's width */
   height: auto; /* Maintain aspect ratio */
