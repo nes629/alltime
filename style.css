@@ -166,7 +166,16 @@ a:active {
 .img14 {
   width: 350px; /* Adjust the width as needed */
   max-width: 100%; /* Ensure it doesn't exceed its parent's width */
-  height: 100; /* Maintain aspect ratio */
+  height: 300px; /* Maintain aspect ratio */
+  display: block; /* Remove default spacing for inline elements */
+  margin: 0 auto; /* Center horizontally */
+  display: flex; /* Use flexbox for a row layout */
+  justify-content: center;
+}
+.img16 {
+  width: 450px; /* Adjust the width as needed */
+  max-width: 100%; /* Ensure it doesn't exceed its parent's width */
+  height: auto; /* Maintain aspect ratio */
   display: block; /* Remove default spacing for inline elements */
   margin: 0 auto; /* Center horizontally */
   display: flex; /* Use flexbox for a row layout */
