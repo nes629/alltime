@@ -182,9 +182,9 @@ a:active {
   justify-content: center;
 }
 .img15 {
-  width: 500px; /* Adjust the width as needed */
+  width: 350px; /* Adjust the width as needed */
   max-width: 100%; /* Ensure it doesn't exceed its parent's width */
-  height: auto; /* Maintain aspect ratio */
+  height: 400px; /* Maintain aspect ratio */
   display: block; /* Remove default spacing for inline elements */
   margin: 0 auto; /* Center horizontally */
   display: flex; /* Use flexbox for a row layout */
@@ -193,7 +193,7 @@ a:active {
 .img14 {
   width: 350px; /* Adjust the width as needed */
   max-width: 100%; /* Ensure it doesn't exceed its parent's width */
-  height: 300px; /* Maintain aspect ratio */
+  height: 250px; /* Maintain aspect ratio */
   display: block; /* Remove default spacing for inline elements */
   margin: 0 auto; /* Center horizontally */
   display: flex; /* Use flexbox for a row layout */
@@ -202,7 +202,7 @@ a:active {
 .img16 {
   width: 500px; /* Adjust the width as needed */
   max-width: 100%; /* Ensure it doesn't exceed its parent's width */
-  height: auto; /* Maintain aspect ratio */
+  height: 400px; /* Maintain aspect ratio */
   display: block; /* Remove default spacing for inline elements */
   margin: 0 auto; /* Center horizontally */
   display: flex; /* Use flexbox for a row layout */
@@ -244,15 +244,25 @@ a:active {
    display: flex; /* Use flexbox to create a row layout */
   justify-content: center;
 }
-.img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+.img22{
+  width: 350px;
+  max-width: 100%; /* Ensures the image won't exceed its parent's width */
+  height: 400px; /* Maintains the image's aspect ratio */
+  display: block; /* Removes any default spacing for inline elements */
   margin: 0 auto;
-  display: flex;
+   display: flex; /* Use flexbox to create a row layout */
   justify-content: center;
 }
-/* Adjust image sizes for smaller screens */
+
+.img23 {
+   width: 350px;
+  max-width: 100%; /* Ensures the image won't exceed its parent's width */
+  height: 400px; /* Maintains the image's aspect ratio */
+  display: block; /* Removes any default spacing for inline elements */
+  margin: 0 auto;
+   display: flex; /* Use flexbox to create a row layout */
+  justify-content: center;
+}
 @media (max-width: 768px) {
   .img {
     max-width: 80%; /* Adjust as needed */
