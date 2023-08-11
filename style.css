@@ -109,241 +109,26 @@ a:active {
   width: 100%; /* Stretch the image to fill the container */
     display: block;
 }
-.img1, .img66, .img3, .img4, .img5, .img6, .img7, .img10, .img9, .img12{
-  width: 300px;
+.img1{
+  width: 500px;
   max-width: 100%; /* Ensures the image won't exceed its parent's width */
-  height: auto; /* Maintains the image's aspect ratio */
+  height: 600; /* Maintains the image's aspect ratio */
   display: block; /* Removes any default spacing for inline elements */
   margin: 0 auto;
    display: flex; /* Use flexbox to create a row layout */
   justify-content: center;
 }
 .img2 {
-   width: 400px;
+   width: 500px;
   max-width: 100%; /* Ensures the image won't exceed its parent's width */
-  height: auto; /* Maintains the image's aspect ratio */
-  display: block; /* Removes any default spacing for inline elements */
-  margin: 0 auto;
-   display: flex; /* Use flexbox to create a row layout */
-  justify-content: center;
-}
-.img6 {
-  width: 800px; /* Adjust the width as needed */
-  max-width: 100%; /* Ensure it doesn't exceed its parent's width */
-  height: 600px; /* Maintain aspect ratio */
-  display: block; /* Remove default spacing for inline elements */
-  margin: 0 auto; /* Center horizontally */
-  display: flex; /* Use flexbox for a row layout */
-  justify-content: center;
-}
-.img5 {
-  width: 500px; /* Adjust the width as needed */
-  max-width: 100%; /* Ensure it doesn't exceed its parent's width */
-  height: 600px; /* Maintain aspect ratio */
-  display: block; /* Remove default spacing for inline elements */
-  margin: 0 auto; /* Center horizontally */
-  display: flex; /* Use flexbox for a row layout */
-  justify-content: center;
-  }
-.img18 {
-  width: 400px; /* Adjust the width as needed */
-  max-width: 100%; /* Ensure it doesn't exceed its parent's width */
-  height: 600px; /* Maintain aspect ratio */
-  display: block; /* Remove default spacing for inline elements */
-  margin: 0 auto; /* Center horizontally */
-  display: flex; /* Use flexbox for a row layout */
-  justify-content: center;
-}
- .img9 {
-  width: 350px; /* Adjust the width as needed */
-  max-width: 100%; /* Ensure it doesn't exceed its parent's width */
-  height: 400px; /* Maintain aspect ratio */
-  display: block; /* Remove default spacing for inline elements */
-  margin: 0 auto; /* Center horizontally */
-  display: flex; /* Use flexbox for a row layout */
-  justify-content: center;
-}
-.img10 {
-   width: 600px; /* Adjust the width as needed */
-  max-width: 100%; /* Ensure it doesn't exceed its parent's width */
-  height: 400px; /* Maintain aspect ratio */
-  display: block; /* Remove default spacing for inline elements */
-  margin: 0 auto; /* Center horizontally */
-  display: flex; /* Use flexbox for a row layout */
-  justify-content: center;
-}
-.img12 {
-  width: 500px; /* Adjust the width as needed */
-  max-width: 100%; /* Ensure it doesn't exceed its parent's width */
-  height: 500px; /* Maintain aspect ratio */
-  display: block; /* Remove default spacing for inline elements */
-  margin: 0 auto; /* Center horizontally */
-  display: flex; /* Use flexbox for a row layout */
-  justify-content: center;
-}
-.img13 {
-  width: 600px; /* Adjust the width as needed */
-  max-width: 100%; /* Ensure it doesn't exceed its parent's width */
-  height: 500px; /* Maintain aspect ratio */
-  display: block; /* Remove default spacing for inline elements */
-  margin: 0 auto; /* Center horizontally */
-  display: flex; /* Use flexbox for a row layout */
-  justify-content: center;
-}
-.img15 {
-  width: 350px; /* Adjust the width as needed */
-  max-width: 100%; /* Ensure it doesn't exceed its parent's width */
-  height: 400px; /* Maintain aspect ratio */
-  display: block; /* Remove default spacing for inline elements */
-  margin: 0 auto; /* Center horizontally */
-  display: flex; /* Use flexbox for a row layout */
-  justify-content: center;
-}
-.img14 {
-  width: 350px; /* Adjust the width as needed */
-  max-width: 100%; /* Ensure it doesn't exceed its parent's width */
-  height: 250px; /* Maintain aspect ratio */
-  display: block; /* Remove default spacing for inline elements */
-  margin: 0 auto; /* Center horizontally */
-  display: flex; /* Use flexbox for a row layout */
-  justify-content: center;
-}
-.img16 {
-  width: 500px; /* Adjust the width as needed */
-  max-width: 100%; /* Ensure it doesn't exceed its parent's width */
-  height: 400px; /* Maintain aspect ratio */
-  display: block; /* Remove default spacing for inline elements */
-  margin: 0 auto; /* Center horizontally */
-  display: flex; /* Use flexbox for a row layout */
-  justify-content: center;
-}
-.img17 {
-   width: 450px; /* Adjust the width as needed */
-  max-width: 100%; /* Ensure it doesn't exceed its parent's width */
-  height: 400px; /* Maintain aspect ratio */
-  display: block; /* Remove default spacing for inline elements */
-  margin: 0 auto; /* Center horizontally */
-  display: flex; /* Use flexbox for a row layout */
-  justify-content: center;
-}
-.img19 {
-  width: 350px;
-  max-width: 100%; /* Ensures the image won't exceed its parent's width */
-  height: 400px; /* Maintains the image's aspect ratio */
-  display: block; /* Removes any default spacing for inline elements */
-  margin: 0 auto;
-   display: flex; /* Use flexbox to create a row layout */
-  justify-content: center;
-}
-.img20 {
-   width: 400px;
-  max-width: 100%; /* Ensures the image won't exceed its parent's width */
-  height: 500px; /* Maintains the image's aspect ratio */
-  display: block; /* Removes any default spacing for inline elements */
-  margin: 0 auto;
-   display: flex; /* Use flexbox to create a row layout */
-  justify-content: center;
-}
-.img21 {
-  width: 400px;
-  max-width: 100%; /* Ensures the image won't exceed its parent's width */
-  height: 500px; /* Maintains the image's aspect ratio */
-  display: block; /* Removes any default spacing for inline elements */
-  margin: 0 auto;
-   display: flex; /* Use flexbox to create a row layout */
-  justify-content: center;
-}
-.img22{
-  width: 350px;
-  max-width: 100%; /* Ensures the image won't exceed its parent's width */
-  height: 400px; /* Maintains the image's aspect ratio */
+  height: 500; /* Maintains the image's aspect ratio */
   display: block; /* Removes any default spacing for inline elements */
   margin: 0 auto;
    display: flex; /* Use flexbox to create a row layout */
   justify-content: center;
 }
 
-.img23 {
-   width: 270px;
-  max-width: 100%; /* Ensures the image won't exceed its parent's width */
-  height: 250px; /* Maintains the image's aspect ratio */
-  display: block; /* Removes any default spacing for inline elements */
-  margin: 0 auto;
-   display: flex; /* Use flexbox to create a row layout */
-  justify-content: center;
-}
-.img24 {
-  width: 500px;
-  max-width: 100%; /* Ensures the image won't exceed its parent's width */
-  height: 500px; /* Maintains the image's aspect ratio */
-  display: block; /* Removes any default spacing for inline elements */
-  margin: 0 auto;
-   display: flex; /* Use flexbox to create a row layout */
-  justify-content: center;
-}
-.img25 {
-  width: 600px;
-  max-width: 100%; /* Ensures the image won't exceed its parent's width */
-  height: 500px; /* Maintains the image's aspect ratio */
-  display: block; /* Removes any default spacing for inline elements */
-  margin: 0 auto;
-   display: flex; /* Use flexbox to create a row layout */
-  justify-content: center;
-}
-.img26 {
-  width: 550px;
-  max-width: 100%; /* Ensures the image won't exceed its parent's width */
-  height: 400px; /* Maintains the image's aspect ratio */
-  display: block; /* Removes any default spacing for inline elements */
-  margin: 0 auto;
-   display: flex; /* Use flexbox to create a row layout */
-  justify-content: center;
-}
-.img27 {
-  width: 450px;
-  max-width: 100%; /* Ensures the image won't exceed its parent's width */
-  height: 500px; /* Maintains the image's aspect ratio */
-  display: block; /* Removes any default spacing for inline elements */
-  margin: 0 auto;
-   display: flex; /* Use flexbox to create a row layout */
-  justify-content: center;
-}
-.img28 {
-  width: 700px;
-  max-width: 100%; /* Ensures the image won't exceed its parent's width */
-  height: 500px; /* Maintains the image's aspect ratio */
-  display: block; /* Removes any default spacing for inline elements */
-  margin: 0 auto;
-   display: flex; /* Use flexbox to create a row layout */
-  justify-content: center;
-}
-.img29 {
-  width: 400px;
-  max-width: 100%; /* Ensures the image won't exceed its parent's width */
-  height: 400px; /* Maintains the image's aspect ratio */
-  display: block; /* Removes any default spacing for inline elements */
-  margin: 0 auto;
-   display: flex; /* Use flexbox to create a row layout */
-  justify-content: center;
-}
-.img30 {
-  width: 300px;
-  max-width: 100%; /* Ensures the image won't exceed its parent's width */
-  height: 400px; /* Maintains the image's aspect ratio */
-  display: block; /* Removes any default spacing for inline elements */
-  margin: 0 auto;
-   display: flex; /* Use flexbox to create a row layout */
-  justify-content: center;
-}
-.img31 {
-  width: 400px;
-  max-width: 100%; /* Ensures the image won't exceed its parent's width */
-  height: 400px; /* Maintains the image's aspect ratio */
-  display: block; /* Removes any default spacing for inline elements */
-  margin: 0 auto;
-   display: flex; /* Use flexbox to create a row layout */
-  justify-content: center;
-}
+
 @media (max-width: 768px) {
   .img {
     max-width: 80%; /* Adjust as needed */
