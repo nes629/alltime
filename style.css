@@ -308,6 +308,24 @@ a:active {
    display: flex; /* Use flexbox to create a row layout */
   justify-content: center;
 }
+.img29 {
+  width: 400px;
+  max-width: 100%; /* Ensures the image won't exceed its parent's width */
+  height: 400px; /* Maintains the image's aspect ratio */
+  display: block; /* Removes any default spacing for inline elements */
+  margin: 0 auto;
+   display: flex; /* Use flexbox to create a row layout */
+  justify-content: center;
+}
+.img30 {
+  width: 300px;
+  max-width: 100%; /* Ensures the image won't exceed its parent's width */
+  height: 400px; /* Maintains the image's aspect ratio */
+  display: block; /* Removes any default spacing for inline elements */
+  margin: 0 auto;
+   display: flex; /* Use flexbox to create a row layout */
+  justify-content: center;
+}
 @media (max-width: 768px) {
   .img {
     max-width: 80%; /* Adjust as needed */
