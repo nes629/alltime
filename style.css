@@ -48,13 +48,21 @@ h2 {
 }
 
 .dmd {
-  width: 100px;
+  width: 350px;
   height: 100px;
   margin: 0 auto; /* Add this to center horizontally */
   display: flex;
   justify-content: center; /* Add this to center horizontally within the element */
   align-items: center; /* Add this to center vertically within the element */
 }
+.slideshow {
+  display: flex; /* Arrange images in a row */
+  overflow: hidden; /* Hide overflow */
+  width: 100%; /* Adjust to your design */
+  width: 100%; /* Make sure images fit in the container */
+  transition: transform 0.5s ease; /* Smooth sliding transition */
+}
+
 
 /* Removed duplicate properties for .insta, .fb, .weibo, .douyin */
 
@@ -99,7 +107,7 @@ a:active {
     }
 }
 
-.banner {
+.slideshow {
   position: relative;
     text-align: center; /* Center the content horizontally */
     margin: 20px 0; /* Adjust spacing as needed */
