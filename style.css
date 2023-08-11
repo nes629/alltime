@@ -155,7 +155,7 @@ a:active {
   justify-content: center;
 }
 .img10 {
-   width: 550px; /* Adjust the width as needed */
+   width: 600px; /* Adjust the width as needed */
   max-width: 100%; /* Ensure it doesn't exceed its parent's width */
   height: 400px; /* Maintain aspect ratio */
   display: block; /* Remove default spacing for inline elements */
@@ -220,7 +220,7 @@ a:active {
 .img19 {
   width: 400px;
   max-width: 100%; /* Ensures the image won't exceed its parent's width */
-  height: 500; /* Maintains the image's aspect ratio */
+  height: 400; /* Maintains the image's aspect ratio */
   display: block; /* Removes any default spacing for inline elements */
   margin: 0 auto;
    display: flex; /* Use flexbox to create a row layout */
@@ -274,6 +274,33 @@ a:active {
 }
 .img25 {
   width: 600px;
+  max-width: 100%; /* Ensures the image won't exceed its parent's width */
+  height: 500px; /* Maintains the image's aspect ratio */
+  display: block; /* Removes any default spacing for inline elements */
+  margin: 0 auto;
+   display: flex; /* Use flexbox to create a row layout */
+  justify-content: center;
+}
+.img26 {
+  width: 580px;
+  max-width: 100%; /* Ensures the image won't exceed its parent's width */
+  height: 500px; /* Maintains the image's aspect ratio */
+  display: block; /* Removes any default spacing for inline elements */
+  margin: 0 auto;
+   display: flex; /* Use flexbox to create a row layout */
+  justify-content: center;
+}
+.img27 {
+  width: 450px;
+  max-width: 100%; /* Ensures the image won't exceed its parent's width */
+  height: 500px; /* Maintains the image's aspect ratio */
+  display: block; /* Removes any default spacing for inline elements */
+  margin: 0 auto;
+   display: flex; /* Use flexbox to create a row layout */
+  justify-content: center;
+}
+.img28 {
+  width: 700px;
   max-width: 100%; /* Ensures the image won't exceed its parent's width */
   height: 500px; /* Maintains the image's aspect ratio */
   display: block; /* Removes any default spacing for inline elements */
