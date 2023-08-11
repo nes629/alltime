@@ -1,5 +1,5 @@
 const slidesContainer = document.querySelector('.slideshow');
-const slides = slidesContainer.querySelectorAll('img');
+const slides = slidesContainer.querySelectorAll('.slide-img'); // Use the correct class
 let currentSlide = 0;
 
 function showSlide(index) {
