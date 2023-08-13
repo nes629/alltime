@@ -111,7 +111,7 @@ a:active {
     }
 }
 
-.banner {
+.swiper {
   position: relative;
     text-align: center; /* Center the content horizontally */
     margin: 20px 0; /* Adjust spacing as needed */
@@ -161,5 +161,29 @@ a:active {
 /* ... (your existing CSS rules) ... */
 
 
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper {
+  width: 80%;
+  max-width: 1200px;
+  height: fit-content;
+  margin: auto; /* Center the container horizontally */
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+}
+
+.swiper-slide img {
+  max-width: 100%;
+  height: auto;
+}
 
 
