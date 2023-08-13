@@ -208,3 +208,49 @@ a:active {
   width: auto;
   height: auto;
 }
+
+/* Your existing CSS rules */
+
+@media (max-width: 768px) {
+  /* Adjustments for screens up to 768px (typical mobile screen width) */
+  .a {
+     height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .swiper {
+     width: 100%; /* Set the width to 100% of the viewport width */
+  height: fit-content;
+  margin: auto;
+  overflow: hidden; /* Hide any overflow */
+  }
+
+  .swiper-wrapper {
+    display: flex; /* Set the wrapper to flex */
+  width: 100%; /* Set the width to 100% of the viewport width */
+  }
+
+  .swiper-slide {
+    flex: 0 0 100%; /* Each slide takes 100% of the available width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .swiper-slide img {
+    max-width: 100%; /* Limit the image width to prevent distortion */
+  max-height: 100%; /* Limit the image height to prevent distortion */
+  width: auto;
+  height: auto;
+  }
+
+  .img1, .img2 {
+    /* Mobile-specific styles */
+  }
+
+  /* ... Other mobile-specific adjustments ... */
+}
+
