@@ -259,13 +259,48 @@ a:active {
   object-fit: contain; 
   }
 
-  .img1, .img2 {
+  .img2 {
     max-width: 100%;
-  height: auto;
+  height: 350;
   display: block;
   margin: 0 auto;
   }
+  .img1 {
+    
+  }
 
   /* ... Other mobile-specific adjustments ... */
+}
+/* Your existing CSS rules */
+
+/* For screens up to 768px (typical mobile screen width) */
+@media (max-width: 768px) {
+  .img {
+    display: flex;
+    flex-direction: column; /* Stack images in a column on mobile */
+  }
+
+  .img img {
+    width: 100%; /* Make images full width on mobile */
+    max-height: none; /* Reset max-height */
+    margin-right: 0; /* Remove margin between images */
+    margin-bottom: 10px; /* Add margin between rows on mobile */
+  }
+}
+/* For screens up to 768px (typical mobile screen width) */
+@media (max-width: 768px) {
+  .image-row {
+    flex-direction: column; /* Stack images in a column on mobile */
+  }
+
+  .image {
+    width: 100%; /* Make images full width on mobile */
+    max-height: none; /* Reset max-height */
+    margin-right: 0; /* Remove margin between images */
+    margin-bottom: 10px; /* Add margin between rows on mobile */
+    display: flex; /* Use flexbox to center the image horizontally */
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+  }
 }
 
