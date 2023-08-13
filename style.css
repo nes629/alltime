@@ -211,7 +211,7 @@ a:active {
 
 /* Your existing CSS rules */
 
-@media (max-width: 768px) {
+ @media (max-width: 768px) {
   /* Adjustments for screens up to 768px (typical mobile screen width) */
   .a {
      height: 100vh;
