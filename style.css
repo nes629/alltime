@@ -259,34 +259,28 @@ a:active {
   object-fit: contain; 
   }
 /* For screens up to 768px (typical mobile screen width) */
-@media (max-width: 768px) {
-  .img {
-    display: flex;
-    flex-direction: column; /* Stack images in a column on mobile */
-  }
-
-  .img img {
-    width: 100%; /* Make images full width on mobile */
-    max-height: none; /* Reset max-height */
-    margin-right: 0; /* Remove margin between images */
-    margin-bottom: 10px; /* Add margin between rows on mobile */
-  }
-}
-/* For screens up to 768px (typical mobile screen width) */
-/* Styles for larger screens */
-.img1 {
+/* Default styles for larger screens */
+.login {
   width: 450px;
-  max-width: 100%;
-  height: 550px;
-  display: block;
-  margin: 0 auto;
+  height: 600px;
+}
+
+.inputbox {
+  width: 310px;
 }
 
 /* Styles for smaller screens (up to 768px width) */
 @media (max-width: 768px) {
-  .img1 {
-    width: 100%; /* Set to full width on smaller screens */
-    height: auto;
+  .login {
+    width: 90%; /* Make the login box 90% of the screen width */
+    height: auto; /* Allow the height to adjust based on content */
+    max-width: 450px; /* Set a maximum width for smaller screens */
+    margin: 0 auto; /* Center the login box horizontally */
+    padding: 20px; /* Add some padding for spacing */
+  }
+
+  .inputbox {
+    width: 100%; /* Make the input box 100% of the login box width */
   }
 }
 
