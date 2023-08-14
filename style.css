@@ -120,21 +120,25 @@ a:active {
 /* ... (your existing CSS rules) ... */
 
 .img1 {
-   width: 28.125em;
+  width: auto;
   max-width: 100%;
-  height: 34.375em;
+  height: auto;
   display: block;
   margin: 0 auto;
   float: left;
+  max-width: 90%;
+  max-height: 90%;
 }
 
 .img2 {
-  width: 28.125em;
+  width: auto;
   max-width: 100%;
-  height: 28.125em;
+  height: auto;
   display: block;
   margin: 0 auto;
   float: left;
+  max-width: 90%;
+  max-height: 90%;
 }
 .img1,
 .img2 {
