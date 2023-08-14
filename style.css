@@ -185,18 +185,21 @@ a:active {
 
 
 /* Styles for smaller screens (up to 768px width) */
-@media (max-width: 768px) {
-  .login {
-    width: 90%; /* Make the login box 90% of the screen width */
+/* Media query for mobile devices with a maximum width of 25.875em (around 414px, which is a common mobile screen width) */
+@media (max-width: 25.875em) {
+  .img2 {
+    width: 90%; /* Make the image 90% of the screen width */
     height: auto; /* Allow the height to adjust based on content */
-    max-width: 450px; /* Set a maximum width for smaller screens */
-    margin: 0 auto; /* Center the login box horizontally */
-    padding: 20px; /* Add some padding for spacing */
+    max-width: 100%; /* Set a maximum width to prevent overflow */
+    margin: 0 auto; /* Center the image horizontally */
   }
-
-  .inputbox {
-    width: 100%; /* Make the input box 100% of the login box width */
+  .img1 {
+    width: 90%; /* Make the image 90% of the screen width */
+    height: auto; /* Allow the height to adjust based on content */
+    max-width: 100%; /* Set a maximum width to prevent overflow */
+    margin: 0 auto; /* Center the image horizontally */
   }
 }
+
 /* new code */
    
