@@ -125,6 +125,7 @@ a:active {
   height: 34.375em;
   display: block;
   margin: 0 auto;
+  float: left;
 }
 
 .img2 {
@@ -133,6 +134,7 @@ a:active {
   height: 28.125em;
   display: block;
   margin: 0 auto;
+  float: left;
 }
 .img1,
 .img2 {
