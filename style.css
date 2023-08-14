@@ -1,7 +1,31 @@
+
+/* new code */
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   /* Reset and General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  justify-content: center;
+}
+
+/* Header Styles */
 h1 {
   text-align: center;
 }
 
+/* Navigation Styles */
 .word-list {
   display: flex;
   justify-content: center;
@@ -18,62 +42,59 @@ h1 {
   margin: 0 10px;
 }
 
+/* Separator Line Styles */
 hr {
   height: 2px;
-  background-color: white; /* Fixed typo here */
+  background-color: white;
   border-color: black;
 }
 
+/* Paragraph Styles */
 p {
   text-align: center;
   font-style: italic;
 }
 
-img1 {
-  width: 1px;
-}
-
+/* Images and Icons Styles */
 .bi {
   max-width: 100%;
   height: auto;
 }
 
+/* Heading Styles */
 h2 {
   text-align: center;
 }
 
+/* Container Styles */
 .container {
-   display: flex;
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
 }
 
+/* Dynamic Message Box Styles */
 .dmd {
   width: 350px;
   height: 100px;
-  margin: 0 auto; /* Add this to center horizontally */
+  margin: 0 auto; /* Center horizontally */
   display: flex;
-  justify-content: center; /* Add this to center horizontally within the element */
-  align-items: center; /* Add this to center vertically within the element */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
+
+/* Slideshow Styles */
 .slideshow {
   position: relative;
-  width: 100vw; /* Set the width to 100% of the viewport width */
+  width: 100vw; /* Set width to 100% of viewport width */
   overflow: hidden;
 }
 
 .slide-img {
-  width: 100%; /* Stretch the image to fill the container */
+  width: 100%; /* Stretch image to fill container */
   transition: transform 0.5s ease; /* Smooth sliding transition */
 }
 
-
-
-/* Removed duplicate properties for .insta, .fb, .weibo, .douyin */
-
-/* ... (your existing CSS rules) ... */
-
-/* ... (your existing CSS rules) ... */
-
+/* Social Icons Styles */
 .social-icons {
   display: flex;
   justify-content: center;
@@ -88,50 +109,58 @@ h2 {
   margin: 0 10px;
 }
 
+/* Link Styles */
 a {
   color: black;
 }
+
 a:hover {
   color: grey;
 }
+
 a:active {
   color: grey;
 }
 
-/* ... (your existing CSS rules) ... */
-
+/* Animation Keyframes */
 @keyframes fallIn {
-    0% {
-        transform: translateY(-100%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
+/* Swiper Styles */
 .swiper {
   position: relative;
-    text-align: center; /* Center the content horizontally */
-    margin: 20px 0; /* Adjust spacing as needed */
-    animation: fallIn 1s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
-   width: 100vw; /* Set the width to 100% of the viewport width */
-    overflow: hidden;
-  width: 100%; /* Stretch the image to fill the container */
-    display: block;
+  text-align: center; /* Center horizontally */
+  margin: 20px 0; /* Adjust spacing as needed */
+  animation: fallIn 1s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+  width: 100vw; /* Set width to 100% of viewport width */
+  overflow: hidden;
 }
-/* ... (your existing CSS rules) ... */
 
-.img1 {
-  width: 450px;
+/* Image Styles for Img1 and Img2 */
+   .img1,{
+     width: 450px;
   max-width: 100%;
   height: 550px;
   display: block;
   margin: 0 auto;
-}
-
+      display: block;
+  margin: 0 auto;
+   }
 .img2 {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
   width: 450px;
   max-width: 100%;
   height: 450px;
@@ -139,148 +168,85 @@ a:active {
   margin: 0 auto;
 }
 
-.img1, .img2 {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+/* Media Query for Screens up to 768px */
+@media (max-width: 768px) {
+  /* Adjustments for responsive design on smaller screens */
+  .container {
+    padding: 20px;
+  }
+
+  .login {
+    width: 90%;
+    height: auto;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  .inputbox {
+    width: 100%;
+  }
+
+  /* Add other responsive adjustments as needed */
 }
+/* Your existing CSS rules */
 
 /* For screens up to 768px (typical mobile screen width) */
 @media (max-width: 768px) {
-  .img1, .img2, .a, .swiper, .swiper-wrapper, .swiper {
+  .img1, .img2, .a, .swiper, .swiper-wrapper, .swiper-slide {
     width: 100%; /* Set images to full width on mobile */
     max-width: none; /* Reset max-width */
     height: auto; /* Allow height to adjust based on aspect ratio */
   }
 }
 
-
-
 @media (max-width: 768px) {
-  .img {
-    max-width: 80%; /* Adjust as needed */
-  }
-}
-
-
-
-
-/* ... (your existing CSS rules) ... */
-
-.img{
-  display: flex;
-  justify-content: center;
-}
-
-/* ... (your existing CSS rules) ... */
-
-.a {
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.swiper {
-  width: 100%; /* Set the width to 100% of the viewport width */
-  height: fit-content;
-  margin: auto;
-  overflow: hidden; /* Hide any overflow */
-}
-
-.swiper-wrapper {
-  display: flex; /* Set the wrapper to flex */
-  width: 100%; /* Set the width to 100% of the viewport width */
-}
-
-.swiper-slide {
-  flex: 0 0 100%; /* Each slide takes 100% of the available width */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.swiper-slide img {
-  max-width: 100%; /* Limit the image width to prevent distortion */
-  max-height: 100%; /* Limit the image height to prevent distortion */
-  width: auto;
-  height: auto;
-}
-
-/* Your existing CSS rules */
-
- @media (max-width: 768px) {
   /* Adjustments for screens up to 768px (typical mobile screen width) */
   .a {
-     height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .swiper {
-     width: 100%; /* Set the width to 100% of the viewport width */
-  height: fit-content;
-  margin: auto;
-  overflow: hidden; /* Hide any overflow */
+    width: 100%; /* Set the width to 100% of the viewport width */
+    height: fit-content;
+    margin: auto;
+    overflow: hidden; /* Hide any overflow */
     max-width: 100%; /* Limit the image width to the container width */
-  max-height: 100%; /* Limit the image height to the container height */
-  object-fit: contain; 
+    max-height: 100%; /* Limit the image height to the container height */
+    object-fit: contain; 
   }
 
   .swiper-wrapper {
     display: flex; /* Set the wrapper to flex */
-  width: 100%; /* Set the width to 100% of the viewport width */
+    width: 100%; /* Set the width to 100% of the viewport width */
     max-width: 100%; /* Limit the image width to the container width */
-  max-height: 100%; /* Limit the image height to the container height */
-  object-fit: contain; 
+    max-height: 100%; /* Limit the image height to the container height */
+    object-fit: contain; 
   }
 
   .swiper-slide {
     flex: 0 0 100%; /* Each slide takes 100% of the available width */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 100%; /* Limit the image width to the container width */
-  max-height: 100%; /* Limit the image height to the container height */
-  object-fit: contain; 
+    max-height: 100%; /* Limit the image height to the container height */
+    object-fit: contain; 
   }
 
   .swiper-slide img {
     max-width: 100%; /* Limit the image width to prevent distortion */
-  max-height: 100%; /* Limit the image height to prevent distortion */
-  width: auto;
-  height: auto;
+    max-height: 100%; /* Limit the image height to prevent distortion */
+    width: auto;
+    height: auto;
     max-width: 100%; /* Limit the image width to the container width */
-  max-height: 100%; /* Limit the image height to the container height */
-  object-fit: contain; 
-  }
-/* For screens up to 768px (typical mobile screen width) */
-/* Default styles for larger screens */
-.login {
-  width: 450px;
-  height: 600px;
-}
-
-.inputbox {
-  width: 310px;
-}
-
-/* Styles for smaller screens (up to 768px width) */
-@media (max-width: 768px) {
-  .login {
-    width: 90%; /* Make the login box 90% of the screen width */
-    height: auto; /* Allow the height to adjust based on content */
-    max-width: 450px; /* Set a maximum width for smaller screens */
-    margin: 0 auto; /* Center the login box horizontally */
-    padding: 20px; /* Add some padding for spacing */
+    max-height: 100%; /* Limit the image height to the container height */
+    object-fit: contain; 
   }
 
-  .inputbox {
-    width: 100%; /* Make the input box 100% of the login box width */
-  }
+  /* Other responsive adjustments for smaller screens can go here */
 }
 
