@@ -273,4 +273,20 @@ a:active {
   }
 }
 /* For screens up to 768px (typical mobile screen width) */
+/* Styles for larger screens */
+.img1 {
+  width: 450px;
+  max-width: 100%;
+  height: 550px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Styles for smaller screens (up to 768px width) */
+@media (max-width: 768px) {
+  .img1 {
+    width: 100%; /* Set to full width on smaller screens */
+    height: auto;
+  }
+}
 
