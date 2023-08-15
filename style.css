@@ -157,14 +157,20 @@ a:active {
 
 /* Media query for mobile devices with a maximum width of 320px */
 .img1, .img2 {
-  max-width: 100%;
+  max-width: 30%;
   height: auto;
   display: block;
   margin: 0 auto;
+  display: flex;
+  width: 100%;
+   flex: 0 0 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* For screens up to 768px (typical mobile screen width) */
-@media (max-width: 768px) {
+@media (max-width: 10px) {
   .img1, .img2 {
     width: 100%; /* Set images to full width on mobile */
     max-width: none; /* Reset max-width */
