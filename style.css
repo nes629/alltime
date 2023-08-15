@@ -119,36 +119,6 @@ a:active {
 }
 /* ... (your existing CSS rules) ... */
 
-.img1 {
-  width: auto;
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  float: left;
-  max-width: 90%;
-  max-height: 90%;
-}
-
-.img2 {
-  width: auto;
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  float: left;
-  max-width: 90%;
-  max-height: 90%;
-}
-.img1,
-.img2 {
-  width: 100%; /* Set width to 100% of the container */
-  height: auto; /* Allow the height to adjust based on content */
-  max-width: 450px; /* Set a maximum width for larger screens */
-  display: block;
-  margin: 0 auto;
-}
-
 
 /* ... (your existing CSS rules) ... */
 
@@ -186,15 +156,22 @@ a:active {
 }
 
 /* Media query for mobile devices with a maximum width of 320px */
-@media (max-width: 320px) {
-  .img1,
-  .img2 {
-    width: 90vw;
-    max-width: 450px;
-    display: block;
-    margin: 0 auto;
+.img1, .img2 {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* For screens up to 768px (typical mobile screen width) */
+@media (max-width: 768px) {
+  .img1, .img2 {
+    width: 100%; /* Set images to full width on mobile */
+    max-width: none; /* Reset max-width */
+    height: auto; /* Allow height to adjust based on aspect ratio */
   }
 }
+
 
 /* ... (your existing CSS rules) ... */
 
