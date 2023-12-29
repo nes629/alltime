@@ -44,13 +44,14 @@ h2 {
 }
 
 .dmd {
-  width: 350px;
-  height: 100px;
-  margin: 0 auto; /* Add this to center horizontally */
+  width: 100%; /* Span the entire width of the screen */
+  height: auto; /* Automatically adjust the height to maintain aspect ratio */
+  margin: 0 auto; /* Center horizontally */
   display: flex;
-  justify-content: center; /* Add this to center horizontally within the element */
-  align-items: center; /* Add this to center vertically within the element */
+  justify-content: center; /* Center horizontally within the element */
+  align-items: center; /* Center vertically within the element */
 }
+
 .slideshow {
   position: relative;
   width: 100vw; /* Set the width to 100% of the viewport width */
@@ -134,6 +135,17 @@ a:active {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+
+/*wrapper 1*/
+.swiper {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 10px; /* Adjust the value as needed */
 }
 
 .swiper-wrapper {
@@ -169,6 +181,14 @@ a:active {
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  .swiper-slide img {
+    width: 100%; /* Set images to full width on smaller screens */
+    max-width: none; /* Reset max-width */
+    height: auto; /* Allow height to adjust based on aspect ratio */
+  }
+}
+
 /* For screens up to 768px (typical mobile screen width) */
 @media (max-width: 100px) {
   .img1, .img2 {
@@ -185,5 +205,7 @@ a:active {
 
 
 
+
 /* new code */
+   
    
