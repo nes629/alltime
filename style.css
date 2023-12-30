@@ -1,3 +1,4 @@
+
 h1 {
   text-align: center;
 }
@@ -22,6 +23,7 @@ hr {
   height: 2px;
   background-color: white; /* Fixed typo here */
   border-color: black;
+  margin-bottom: 0px;
 }
 
 p {
@@ -56,11 +58,13 @@ h2 {
   position: relative;
   width: 100vw; /* Set the width to 100% of the viewport width */
   overflow: hidden;
+  height: -webkit-fill-available;
 }
 
 .slide-img {
   width: 100%; /* Stretch the image to fill the container */
   transition: transform 0.5s ease; /* Smooth sliding transition */
+  height: -webkit-fill-available;
 }
 
 
@@ -111,12 +115,18 @@ a:active {
 .swiper {
   position: relative;
     text-align: center; /* Center the content horizontally */
-    margin: 20px 0; /* Adjust spacing as needed */
+    margin: 0px; /* Adjust spacing as needed */
     animation: fallIn 1s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
    width: 100vw; /* Set the width to 100% of the viewport width */
     overflow: hidden;
   width: 100%; /* Stretch the image to fill the container */
     display: block;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 0px;
+  height: -webkit-fill-available;
 }
 /* ... (your existing CSS rules) ... */
 
@@ -136,21 +146,29 @@ a:active {
   align-items: center;
   justify-content: center;
   margin-bottom: 10px; /* Adjust the value as needed */
+  height: -webkit-fill-available;
 }
 
 
 /*wrapper 1*/
-.swiper {
-  position: relative;
-  text-align: center;
-  width: 100%;
-  overflow: hidden;
-  margin-bottom: 10px; /* Adjust the value as needed */
+
+
+.swiper-pagination {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+}
 .swiper-wrapper {
   display: flex;
   width: 100%;
+  height: -webkit-fill-available;
 }
 
 .swiper-slide {
@@ -158,6 +176,7 @@ a:active {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: -webkit-fill-available;
 }
 
 .swiper-slide img {
@@ -165,6 +184,7 @@ a:active {
   max-height: 100%;
   width: auto;
   height: auto;
+  height: -webkit-fill-available;
 }
 
 /* Media query for mobile devices with a maximum width of 320px */
@@ -179,6 +199,7 @@ a:active {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 @media (max-width: 768px) {
@@ -186,6 +207,7 @@ a:active {
     width: 100%; /* Set images to full width on smaller screens */
     max-width: none; /* Reset max-width */
     height: auto; /* Allow height to adjust based on aspect ratio */
+
   }
 }
 
@@ -195,6 +217,7 @@ a:active {
     width: 100%; /* Set images to full width on mobile */
     max-width: none; /* Reset max-width */
     height: auto; /* Allow height to adjust based on aspect ratio */
+    height: -webkit-fill-available;
   }
 }
 
@@ -207,5 +230,6 @@ a:active {
 
 
 /* new code */
+   
    
    
