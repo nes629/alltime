@@ -1,11 +1,11 @@
 const slidesContainer = document.querySelector('.slideshow');
-const slides = slidesContainer.querySelectorAll('.slide-img'); // Use the correct class
+const slides = slidesContainer.querySelectorAll('.slide-img');
 let currentSlide = 0;
 
 function showSlide(index) {
   slides.forEach((slide, i) => {
-    const slideOffset = (i - index) * 100; // Assuming each slide is 100% width
-    slide.style.transform = `translateX(${slideOffset}%)`; // Slide the image
+    const slideOffset = (i - index) * 100; 
+    slide.style.transform = `translateX(${slideOffset}%)`;
   });
 }
 
