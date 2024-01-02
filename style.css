@@ -107,7 +107,6 @@ a:active {
     animation: fallIn 1s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
    width: 100vw; 
     overflow: hidden;
-  width: 100%;
     display: block;
   position: relative;
   text-align: center;
