@@ -19,7 +19,20 @@
     <h2>Contact Us</h2>
     <p>Reach out if you any questions, or if you are interested in hosting, collaborating, etc.</p>
     <p>Email: info@dmdistr.com</p>
+    
+<form action="https://formsubmit.co/info@dmdistr.com" method="POST" class="contact-form">
+  <input type="hidden" name="_captcha" value="false"> 
+  
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" placeholder="Your full name" required />
 
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" placeholder="your.email@example.com" required />
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+
+  <button type="submit">Send Message</button>
 
 
 
